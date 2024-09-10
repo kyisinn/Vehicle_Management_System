@@ -14,7 +14,6 @@ public class TruckRegisterationService extends VehicleRegisterationService{
 		int capacity = Integer.parseInt(br.readLine());
 		Vehicle truck = new Truck(this.getVehicle(), capacity);
 		this.setVehicle(truck);
-		vehicleList[Vehicle.getCount()-1]= truck;
 		
 	}
 

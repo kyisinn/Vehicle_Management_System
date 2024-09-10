@@ -1,7 +1,4 @@
 package Model_mm;
-
-
-
 public class Car extends Vehicle{
 	private int door;
 	private static int count=0;
@@ -26,7 +23,9 @@ public class Car extends Vehicle{
 		System.out.println("**car**");
 		super.displayInfo();
 		System.out.println("Door : " +this.door);
+		System.out.println("------------");
 	}
+	
 	
 
 }

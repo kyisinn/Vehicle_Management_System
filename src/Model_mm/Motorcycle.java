@@ -24,6 +24,7 @@ public class Motorcycle extends Vehicle {
 		System.out.println("**MotorCycle**");
 		super.displayInfo();
 		System.out.println("SideCar :"+ this.hasSideCar);
+		System.out.println("------------");
 		
 	
 	}

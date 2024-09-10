@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import Model_mm.Motorcycle;
 import Model_mm.Vehicle;
+import Dao.VehicleDao;
 
 
 
@@ -20,9 +21,8 @@ public class MotorcycleRegisterationService extends VehicleRegisterationService{
 		}
 		Vehicle cycle =new Motorcycle(this.getVehicle(),hasSideCar);
 		this.setVehicle(cycle);
-		vehicleList[Vehicle.getCount()-1] = cycle;
+		
 		
 	}
-	
 
 }

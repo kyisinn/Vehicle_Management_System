@@ -21,6 +21,11 @@ public class Truck extends Vehicle {
 	public void displayInfo() {
 		System.out.println("** Truck **");
 		System.out.println("Capacity :"+this.payCapacity);
+		System.out.println("------------");
+	}
+	@Override
+	public String toString() {
+		return "Truck [payCapacity : " + payCapacity + "]";
 	}
 	
 }

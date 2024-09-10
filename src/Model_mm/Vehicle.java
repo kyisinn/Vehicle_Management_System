@@ -42,10 +42,23 @@ public class Vehicle {
         Vehicle.count = count;
     }
 
-    public void displayInfo() {
+   
+
+	@Override
+	public String toString() {
+		return "Vehicle [Brand :" + brand  + "\n"+ ", Model :" + model + "]";
+	}
+
+	public void displayInfo() {
         System.out.println("Brand: " + this.brand);
         System.out.println("Model: " + this.model);
     }
+
+	public int getTotalPrice() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+    
 
 
 }

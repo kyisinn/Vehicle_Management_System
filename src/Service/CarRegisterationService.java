@@ -16,7 +16,7 @@ public class CarRegisterationService extends VehicleRegisterationService{
 		
 		Vehicle car = new Car(this.getVehicle(),door);
 		
-		vehicleList[Vehicle.getCount()-1] = car;
+		this.setVehicle(car);
 	}
 
 
